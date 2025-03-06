@@ -1,6 +1,6 @@
 # Blackjack Game
 
-![Blackjack Game Screenshot](img/screenshot.png) <!-- Add a screenshot of your game if available -->
+![Blackjack Game Screenshot](img/screenshot.PNG) <!-- Add a screenshot of your game if available -->
 
 Welcome to the **Blackjack Game**! This is a simple, interactive web-based Blackjack game built using HTML, CSS, and JavaScript. The game allows you to play against a computer dealer and test your luck and strategy.
 
