@@ -44,7 +44,7 @@ The goal of Blackjack is to beat the dealer by having a hand value closer to 21 
 
 You can play the game online by clicking the link below:
 
-👉 [Play Blackjack Game](https://francismsangi.github.io/blackjack-game/blackJack.html)
+[Play Blackjack Game](https://francismsangi.github.io/blackjack-game/blackJack.html)
 
 ---
 
