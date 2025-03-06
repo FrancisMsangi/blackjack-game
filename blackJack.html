@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blackjack Game</title>
+  <link rel="stylesheet" href="blackJack.css">
+</head>
+
+<body>
+  <header>
+    <h1 id="heading">Blackjack Game</h1>
+  </header>
+
+  <main>
+    <!-- Instructions Section -->
+    <section id="instructions">
+      <h2>How to Play</h2>
+      <p>
+        Welcome to Blackjack! The goal of the game is to beat the dealer by having a hand value closer to 21 without going over.
+      </p>
+      <ul>
+        <li>Click <strong>Start Game</strong> to begin.</li>
+        <li>Click <strong>Deal Card</strong> to receive cards.</li>
+        <li>Click <strong>Stop</strong> to end your turn and let the dealer play.</li>
+        <li>If your hand exceeds 21, you lose (bust).</li>
+        <li>The dealer must draw cards until their score is <strong>at least 21</strong> or they beat your score.</li>
+      </ul>
+    </section>
+
+    <!-- Game Controls -->
+    <section class="form">
+      <form>
+        <input type="button" id="startButton" value="Start Game" name="startButton"><br><br>
+        <input type="button" disabled id="dealButton" value="Deal Card" name="dealButton">
+        <input type="button" disabled id="stopButton" value="Stop" name="stopButton">
+      </form>
+    </section>
+
+    <!-- Game Results -->
+    <h1 id="winner"></h1>
+    <div id="dealtCards"></div>
+
+    <!-- Scores Section -->
+    <section id="scores">
+      <h2 id="scorePlayer">Your score is:</h2>
+      <h2 id="scoreComputer">Dealer score is:</h2>
+    </section>
+
+    <!-- Cards Section -->
+    <section id="cardsHead">
+      <h2 id="cardsOfPlayer">Your Cards</h2>
+      <h2 id="cardsOfComputer">Dealer Cards</h2>
+    </section>
+
+    <section id="cards">
+      <div id="playerCards"></div>
+      <div id="computerCards"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Created by [Francis Michael Msangi] | Hosted on <a href="https://github.com/FrancisMsangi/blackjack-game" target="_blank">GitHub</a></p>
+  </footer>
+
+  <script src="blackJack.js"></script>
+</body>
+
+</html>
