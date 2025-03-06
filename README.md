@@ -11,9 +11,6 @@ Welcome to the **Blackjack Game**! This is a simple, interactive web-based Black
 - [Features](#features)
 - [Play the Game](#play-the-game)
 - [Technologies Used](#technologies-used)
-- [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgements](#acknowledgements)
 
 ---
 
